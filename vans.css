@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+
+/* NAVIGATION */
+header {
+    background: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #eee;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a.active,
+nav a:hover {
+    color: #c2185b;
+}
+
+/* HERO SECTION */
+.hero {
+    height: 80vh;
+    background: url("C:\Users\martin\Desktop\GOKYALA VANNESA BAIT 25D U A0518\vannesa.web") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text {
+    background: red;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.hero .btn {
+    background: purple;
+    color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* INTRO */
+.intro {
+    text-align: center;
+    padding: 40px;
+}
+
+/* SERVICES */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.service-box {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #ccc;
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    padding: 40px;
+    gap: 20px;
+}
+
+.about img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.about div {
+    width: 50%;
+}
+
+/* CONTACT */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background: yellow;
+    color: green;
+    padding: 10px;
+    text-align: center;
+	display :flex;
+	 border-bottom: 2px solid #eee;}
